@@ -11,7 +11,6 @@ export const listPages = async () => {
   const pages = await Pages.find({});
   return pages;
 };
-export const deletePage = async (pageId) => {};
 export const updatePage = async (pageId, pageBody) => {};
 export const pageDetails = async (pageId) => {
   const pages = await Pages.findOne({ _id: pageId });
@@ -24,4 +23,9 @@ export const savePageContent = async (pageId, content) => {
 export const findPageById = async (pageId) => {
   const page = await Pages.findById(pageId);
   return page;
+};
+
+export const deletePage = async (pageId) => {
+  const deletepg = await Pages.findByIdAndDelete({ _id: pageId });
+  return deletepg;
 };
