@@ -5,7 +5,7 @@ export const loadAllAssets = async (req, res) => {
       src: 'https://firebasestorage.googleapis.com/v0/b/assetuploadformbuilder.appspot.com/o/images%2Fimage-removebg-preview%20(1).pngb1a05011-7bcb-453a-8681-4838ee6affa3?alt=media&token=8e57e074-a8e6-479f-8ffb-164c2f503732',
       height: 350,
       width: 250,
-      name: 'sexy'
+      name: 'displayName'
     },
     {
       // As the 'image' is the base type of assets, omitting it will
