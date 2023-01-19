@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/7390180b-a8a5-4dac-9901-fca2dfb3d69e/AppServices/subscriptions/7390180b-a8a5-4dac-9901-fca2dfb3d69e/resourceGroups/appsvc_linux_centralus_basic/providers/Microsoft.Web/sites/websitebuilderserver/subscriptions/7390180b-a8a5-4dac-9901-fca2dfb3d69e/resourceGroups/appsvc_linux_centralus_premium/providers/Microsoft.Web/sites/webbuilderserver",
+    "appService.deploySubpath": "."
+}
