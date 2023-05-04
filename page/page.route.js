@@ -11,14 +11,14 @@ import {
 
 const pageRoute = express.Router();
 pageRoute.post('/', create);
-pageRoute.post('/:pageId/content', changeContent);
+pageRoute.post('/api/:pageId/content', changeContent);
 
-pageRoute.put('/:pageId', update);
+pageRoute.put('/api/:pageId', update);
 
 pageRoute.delete('/:pageId', deletePageRecord);
 
-pageRoute.get('/:pageId', details);
+pageRoute.get('/api/:pageId', details);
 pageRoute.get('/', list);
-pageRoute.get('/:pageId/content', loadContent);
+pageRoute.get('/api/:pageId/content', loadContent); 
 
 export default pageRoute;
